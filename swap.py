@@ -1,0 +1,10 @@
+a = input("Nhap a: ");
+b = input("Nhap b: ");
+print "a= ",a;
+print "b= ",b;
+tam=a;
+a=b;
+b=tam;
+print "Ket qua sau khi hoan doi:";
+print "a= ",a;
+print "b= ",b;

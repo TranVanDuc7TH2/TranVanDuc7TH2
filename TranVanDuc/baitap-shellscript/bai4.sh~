@@ -1,0 +1,38 @@
+#Xoa man hinh 
+clear 
+echo "Moi nhap a"
+read a
+echo "Moi nhap b"
+read b 
+echo "----------------------------"
+echo "----Cac phep toan so hoc----"
+echo "----------------------------"
+echo "Phep cong (+)"
+echo "Phep tru (-)"
+echo "Phep nhan (*)"
+echo "Phep chia (/)"
+echo "Ket thuc (e)"
+echo "----------------------------"
+echo "Moi chon: "
+read lc
+case $lc in
+"+")
+	echo "Tong hai so:"
+	let "kq=$a+$b"
+	echo $kq;;
+"-")
+	echo "Hieu hai so:" 
+	let "kq=$a-$b"
+	echo $kq;;
+"*")
+	echo "Tich hai so:" 
+	let "kq=$a*$b"
+	echo $kq;;
+"/")
+	echo "Thuong hai so:" 
+	let "kq=$a/$b"
+	echo $kq;;
+"e")
+	echo "Da thoat chuong trinh" 
+	exit
+esac 

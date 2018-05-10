@@ -1,0 +1,19 @@
+#include <stdio.h>
+int tongle(int n)
+{
+	int tong = 0;
+	int i;
+	for (i=1; i <= n; i++)
+		if (i % 2 != 0)
+			tong = tong + i;
+	return tong;
+}
+/*
+int main()
+{
+	printf("Tong le 2: %d\n",tongle(2));
+	printf("Tong le 4: %d\n",tongle(4));
+	printf("Tong le 6: %d\n",tongle(6));
+	
+}
+*/

@@ -1,0 +1,19 @@
+#include <stdio.h>
+int tongchan(int n)
+{
+	int tong = 0;
+	int i;
+	for (i=1; i <= n; i++)
+		if ( i % 2 == 0)
+			tong = tong + i;
+	return tong;
+}
+/*
+int main()
+{
+	printf("Tong chan 2: %d\n",tongchan(2));
+	printf("Tong chan 4: %d\n",tongchan(4));
+	printf("Tong chan 6: %d\n",tongchan(6));
+	
+}
+*/

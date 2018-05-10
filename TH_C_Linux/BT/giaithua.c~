@@ -1,0 +1,23 @@
+#include <stdio.h>
+int giaithua(int n)
+{
+	if (n == 0)
+		return 1;
+	else
+	{
+		int gt=1;
+		int i;
+		for (i=1; i <=n; i++)
+			gt = gt * i;
+		return gt;
+	}
+}
+/*
+int main()
+{
+	printf("0!= %d\n",giaithua(0));
+	printf("1!= %d\n",giaithua(1));
+	printf("2!= %d\n",giaithua(2));
+	printf("5!= %d\n",giaithua(5));
+	
+}*/

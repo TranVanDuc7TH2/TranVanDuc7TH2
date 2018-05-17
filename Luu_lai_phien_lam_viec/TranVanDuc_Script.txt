@@ -1,0 +1,301 @@
+Script started on Thứ năm, 17 Tháng năm Năm 2018 14:50:44 +07
+]0;ductran@ductran-Inspiron-15-3552: ~/Desktopductran@ductran-Inspiron-15-3552:~/Desktop$ pwd
+/home/ductran/Desktop
+]0;ductran@ductran-Inspiron-15-3552: ~/Desktopductran@ductran-Inspiron-15-3552:~/Desktop$ cd /etc
+]0;ductran@ductran-Inspiron-15-3552: /etcductran@ductran-Inspiron-15-3552:/etc$ cd
+]0;ductran@ductran-Inspiron-15-3552: ~ductran@ductran-Inspiron-15-3552:~$ cd /boot/grub/
+]0;ductran@ductran-Inspiron-15-3552: /boot/grubductran@ductran-Inspiron-15-3552:/boot/grub$ cd ..
+]0;ductran@ductran-Inspiron-15-3552: /bootductran@ductran-Inspiron-15-3552:/boot$ cd /
+]0;ductran@ductran-Inspiron-15-3552: /ductran@ductran-Inspiron-15-3552:/$ ls
+[0m[01;34mbin[0m    [01;34mdev[0m   [01;36minitrd.img[0m      [01;34mlib64[0m       [01;34mmnt[0m   [01;34mrun[0m   [01;34msys[0m  [01;34mvar[0m
+[01;34mboot[0m   [01;34metc[0m   [01;36minitrd.img.old[0m  [01;34mlost+found[0m  [01;34mproc[0m  [01;34msbin[0m  [30;42mtmp[0m  [01;36mvmlinuz[0m
+[01;34mcdrom[0m  [01;34mhome[0m  [01;34mlib[0m             [01;34mmedia[0m       [01;34mroot[0m  [01;34msrv[0m   [01;34musr[0m  [01;36mvmlinuz.old[0m
+]0;ductran@ductran-Inspiron-15-3552: /ductran@ductran-Inspiron-15-3552:/$ ls -l
+total 92
+drwxr-xr-x   2 root root  4096 Th04 22 16:31 [0m[01;34mbin[0m
+drwxr-xr-x   3 root root  4096 Th04 24 08:22 [01;34mboot[0m
+drwxrwxr-x   2 root root  4096 Th03 19 08:54 [01;34mcdrom[0m
+drwxr-xr-x  19 root root  4320 Th05 17  2018 [01;34mdev[0m
+drwxr-xr-x 133 root root 12288 Th05 17  2018 [01;34metc[0m
+drwxr-xr-x   3 root root  4096 Th03 19 08:54 [01;34mhome[0m
+lrwxrwxrwx   1 root root    33 Th04 24 08:21 [01;36minitrd.img[0m -> boot/initrd.img-4.4.0-121-generic
+lrwxrwxrwx   1 root root    33 Th04 22 16:34 [01;36minitrd.img.old[0m -> boot/initrd.img-4.4.0-119-generic
+drwxr-xr-x  23 root root  4096 Th04 22 16:26 [01;34mlib[0m
+drwxr-xr-x   2 root root  4096 Th04 22 16:21 [01;34mlib64[0m
+drwx------   2 root root 16384 Th03 19 08:50 [01;34mlost+found[0m
+drwxr-xr-x   3 root root  4096 Th03 23 13:52 [01;34mmedia[0m
+drwxr-xr-x   2 root root  4096 Th04 11  2014 [01;34mmnt[0m
+dr-xr-xr-x 208 root root     0 Th05 17  2018 [01;34mproc[0m
+drwx------   2 root root  4096 Th04 22 18:37 [01;34mroot[0m
+drwxr-xr-x  23 root root   740 Th05 17 15:03 [01;34mrun[0m
+drwxr-xr-x   2 root root 12288 Th04 22 16:29 [01;34msbin[0m
+drwxr-xr-x   2 root root  4096 Th08  3  2016 [01;34msrv[0m
+dr-xr-xr-x  13 root root     0 Th05 17  2018 [01;34msys[0m
+drwxrwxrwt   5 root root  4096 Th05 17 15:02 [30;42mtmp[0m
+drwxr-xr-x  10 root root  4096 Th08  3  2016 [01;34musr[0m
+drwxr-xr-x  13 root root  4096 Th08  3  2016 [01;34mvar[0m
+lrwxrwxrwx   1 root root    30 Th04 24 08:21 [01;36mvmlinuz[0m -> boot/vmlinuz-4.4.0-121-generic
+lrwxrwxrwx   1 root root    30 Th04 22 16:34 [01;36mvmlinuz.old[0m -> boot/vmlinuz-4.4.0-119-generic
+]0;ductran@ductran-Inspiron-15-3552: /ductran@ductran-Inspiron-15-3552:/$ ls /etc
+[0m[01;34macpi[0m                           hosts.allow              [01;34mppp[0m
+adduser.conf                   hosts.deny               [01;36mprintcap[0m
+[01;34malternatives[0m                   [01;34mhp[0m                       profile
+anacrontab                     [01;34mifplugd[0m                  [01;34mprofile.d[0m
+apg.conf                       [01;34minit[0m                     protocols
+[01;34mapm[0m                            [01;34minit.d[0m                   [01;34mpulse[0m
+[01;34mapparmor[0m                       [01;34minitramfs-tools[0m          [01;34mpython[0m
+[01;34mapparmor.d[0m                     inputrc                  [01;34mpython2.7[0m
+[01;34mapport[0m                         [01;34minsserv[0m                  [01;34mpython3[0m
+[01;34mapt[0m                            insserv.conf             [01;34mpython3.4[0m
+[01;34maptdaemon[0m                      [01;34minsserv.conf.d[0m           [01;34mrc0.d[0m
+[01;34mat-spi2[0m                        [01;34miproute2[0m                 [01;34mrc1.d[0m
+[01;34mavahi[0m                          issue                    [01;34mrc2.d[0m
+bash.bashrc                    issue.net                [01;34mrc3.d[0m
+bash_completion                [01;34mjava[0m                     [01;34mrc4.d[0m
+[01;34mbash_completion.d[0m              [01;34mjava-7-openjdk[0m           [01;34mrc5.d[0m
+bindresvport.blacklist         [01;34mjetty[0m                    [01;34mrc6.d[0m
+blkid.conf                     [01;34mkbd[0m                      [01;32mrc.local[0m
+[40;31;01mblkid.tab[0m                      [01;34mkernel[0m                   [01;34mrcS.d[0m
+[01;34mbluetooth[0m                      kernel-img.conf          [01;34mresolvconf[0m
+brlapi.key                     kerneloops.conf          [01;36mresolv.conf[0m
+[01;34mbrltty[0m                         [01;34mldap[0m                     [01;32mrmt[0m
+brltty.conf                    ld.so.cache              rpc
+[01;34mca-certificates[0m                ld.so.conf               rsyslog.conf
+ca-certificates.conf           [01;34mld.so.conf.d[0m             [01;34mrsyslog.d[0m
+ca-certificates.conf.dpkg-old  legal                    [01;34msamba[0m
+[01;34mcalendar[0m                       libaudit.conf            [01;34msane.d[0m
+[01;34mchatscripts[0m                    [01;34mlibnl-3[0m                  securetty
+colord.conf                    [01;34mlibpaper.d[0m               [01;34msecurity[0m
+[01;34mcompizconfig[0m                   [01;34mlibreoffice[0m              [01;34mselinux[0m
+[01;34mconsole-setup[0m                  [01;34mlightdm[0m                  sensors3.conf
+[01;34mcracklib[0m                       lintianrc                [01;34msensors.d[0m
+[01;34mcron.d[0m                         locale.alias             services
+[01;34mcron.daily[0m                     localtime                [01;34msgml[0m
+[01;34mcron.hourly[0m                    [01;34mlogcheck[0m                 shadow
+[01;34mcron.monthly[0m                   login.defs               shadow-
+crontab                        logrotate.conf           shells
+[01;34mcron.weekly[0m                    [01;34mlogrotate.d[0m              signond.conf
+[01;34mcups[0m                           lsb-release              [01;34msignon-ui[0m
+[01;34mcupshelpers[0m                    ltrace.conf              [01;34mskel[0m
+[01;34mdbus-1[0m                         magic                    [01;34mspeech-dispatcher[0m
+[01;34mdconf[0m                          magic.mime               [01;34mssh[0m
+debconf.conf                   mailcap                  [01;34mssl[0m
+debian_version                 mailcap.order            subgid
+[01;34mdefault[0m                        manpath.config           subgid-
+deluser.conf                   mime.types               subuid
+[01;34mdepmod.d[0m                       mke2fs.conf              subuid-
+[01;34mdhcp[0m                           [01;34mmodprobe.d[0m               sudoers
+[01;34mdictionaries-common[0m            modules                  [01;34msudoers.d[0m
+[01;34mdnsmasq.d[0m                      [01;34mmodules-load.d[0m           sysctl.conf
+[01;34mdoc-base[0m                       [01;34mmono[0m                     [01;34msysctl.d[0m
+[01;34mdpkg[0m                           mtab                     [01;34msystemd[0m
+drirc                          mtab.fuselock            [01;34mterminfo[0m
+[01;34memacs[0m                          mtools.conf              [01;34mthermald[0m
+environment                    nanorc                   [01;34mthunderbird[0m
+[01;34mfirefox[0m                        netbeans.clusters        timezone
+[01;34mfonts[0m                          netbeans.conf            ucf.conf
+fstab                          netscsid.conf            [01;34mudev[0m
+[01;34mfstab.d[0m                        [01;34mnetwork[0m                  [01;34mudisks2[0m
+fuse.conf                      [01;34mNetworkManager[0m           [01;34mufw[0m
+gai.conf                       networks                 updatedb.conf
+[01;34mgconf[0m                          [01;34mnewt[0m                     [01;34mupdate-manager[0m
+[01;34mgdb[0m                            nsswitch.conf            [01;34mupdate-motd.d[0m
+[01;34mghostscript[0m                    [01;34mobex-data-server[0m         [01;34mupdate-notifier[0m
+[01;34mgnome[0m                          [01;34mopt[0m                      [01;34mUPower[0m
+[01;34mgnome-app-install[0m              os-release               upstart-xsessions
+[01;34mgroff[0m                          pam.conf                 usb_modeswitch.conf
+group                          [01;34mpam.d[0m                    [01;34musb_modeswitch.d[0m
+group-                         papersize                [01;34mvim[0m
+[01;34mgrub.d[0m                         passwd                   [01;36mvtrgb[0m
+gshadow                        passwd-                  wgetrc
+gshadow-                       [01;34mpcmcia[0m                   wodim.conf
+[01;34mgtk-2.0[0m                        [01;34mperl[0m                     [01;34mwpa_supplicant[0m
+[01;34mgtk-3.0[0m                        [01;34mpki[0m                      [01;34mX11[0m
+hdparm.conf                    [01;34mpm[0m                       [01;34mxdg[0m
+host.conf                      pnm2ppa.conf             [01;34mxml[0m
+hostname                       [01;34mpolkit-1[0m                 zsh_command_not_found
+hosts                          popularity-contest.conf
+]0;ductran@ductran-Inspiron-15-3552: /ductran@ductran-Inspiron-15-3552:/$ ls /bin/sbin
+ls: cannot access /bin/sbin: No such file or directory
+]0;ductran@ductran-Inspiron-15-3552: /ductran@ductran-Inspiron-15-3552:/$ ls /bin /sbin
+/bin:
+[0m[01;32mbash[0m                  [01;32mfgconsole[0m   [01;36mnc[0m                       [01;32msed[0m
+[01;32mbunzip2[0m               [01;32mfgrep[0m       [01;32mnc.openbsd[0m               [01;32msetfacl[0m
+[01;32mbusybox[0m               [01;32mfindmnt[0m     [01;36mnetcat[0m                   [01;32msetfont[0m
+[01;32mbzcat[0m                 [01;32mfuser[0m       [01;32mnetstat[0m                  [01;32msetupcon[0m
+[01;36mbzcmp[0m                 [37;41mfusermount[0m  [01;36mnisdomainname[0m            [01;36msh[0m
+[01;32mbzdiff[0m                [01;32mgetfacl[0m     [01;32mntfs-3g[0m                  [01;36msh.distrib[0m
+[01;36mbzegrep[0m               [01;32mgrep[0m        [01;32mntfs-3g.probe[0m            [01;32msleep[0m
+[01;32mbzexe[0m                 [01;32mgunzip[0m      [01;32mntfs-3g.secaudit[0m         [01;32mss[0m
+[01;36mbzfgrep[0m               [01;32mgzexe[0m       [01;32mntfs-3g.usermap[0m          [01;36mstatic-sh[0m
+[01;32mbzgrep[0m                [01;32mgzip[0m        [01;32mntfscat[0m                  [01;32mstty[0m
+[01;32mbzip2[0m                 [01;32mhostname[0m    [01;32mntfsck[0m                   [37;41msu[0m
+[01;32mbzip2recover[0m          [01;32mip[0m          [01;32mntfscluster[0m              [01;32msync[0m
+[01;36mbzless[0m                [01;32mkbd_mode[0m    [01;32mntfscmp[0m                  [01;32mtailf[0m
+[01;32mbzmore[0m                [01;32mkill[0m        [01;32mntfsdump_logfile[0m         [01;32mtar[0m
+[01;32mcat[0m                   [01;32mkmod[0m        [01;32mntfsfix[0m                  [01;32mtempfile[0m
+[01;32mchacl[0m                 [01;32mless[0m        [01;32mntfsinfo[0m                 [01;32mtouch[0m
+[01;32mchgrp[0m                 [01;32mlessecho[0m    [01;32mntfsls[0m                   [01;32mtrue[0m
+[01;32mchmod[0m                 [01;36mlessfile[0m    [01;32mntfsmftalloc[0m             [01;32mudevadm[0m
+[01;32mchown[0m                 [01;32mlesskey[0m     [01;32mntfsmove[0m                 [01;32mulockmgr_server[0m
+[01;32mchvt[0m                  [01;32mlesspipe[0m    [01;32mntfstruncate[0m             [37;41mumount[0m
+[01;32mcp[0m                    [01;32mln[0m          [01;32mntfswipe[0m                 [01;32muname[0m
+[01;32mcpio[0m                  [01;32mloadkeys[0m    [01;36mopen[0m                     [01;32muncompress[0m
+[01;32mdash[0m                  [01;32mlogin[0m       [01;32mopenvt[0m                   [01;32municode_start[0m
+[01;32mdate[0m                  [01;32mloginctl[0m    [01;36mpidof[0m                    [01;32mvdir[0m
+[01;32mdbus-cleanup-sockets[0m  [01;32mlowntfs-3g[0m  [37;41mping[0m                     [01;32mvmmouse_detect[0m
+[01;32mdbus-daemon[0m           [01;32mls[0m          [37;41mping6[0m                    [01;32mwhich[0m
+[01;32mdbus-uuidgen[0m          [01;32mlsblk[0m       [01;32mplymouth[0m                 [01;32mwhiptail[0m
+[01;32mdd[0m                    [01;36mlsmod[0m       [01;32mplymouth-upstart-bridge[0m  [01;36mypdomainname[0m
+[01;32mdf[0m                    [01;32mmkdir[0m       [01;32mps[0m                       [01;32mzcat[0m
+[01;32mdir[0m                   [01;32mmknod[0m       [01;32mpwd[0m                      [01;32mzcmp[0m
+[01;32mdmesg[0m                 [01;32mmktemp[0m      [01;36mrbash[0m                    [01;32mzdiff[0m
+[01;36mdnsdomainname[0m         [01;32mmore[0m        [01;32mreadlink[0m                 [01;32mzegrep[0m
+[01;36mdomainname[0m            [37;41mmount[0m       [01;32mred[0m                      [01;32mzfgrep[0m
+[01;32mdumpkeys[0m              [01;32mmountpoint[0m  [01;32mrm[0m                       [01;32mzforce[0m
+[01;32mecho[0m                  [01;36mmt[0m          [01;32mrmdir[0m                    [01;32mzgrep[0m
+[01;32med[0m                    [01;32mmt-gnu[0m      [01;36mrnano[0m                    [01;32mzless[0m
+[01;32megrep[0m                 [01;32mmv[0m          [01;32mrunning-in-container[0m     [01;32mzmore[0m
+[01;32mfalse[0m                 [01;32mnano[0m        [01;32mrun-parts[0m                [01;32mznew[0m
+
+/sbin:
+[01;32macpi_available[0m   [01;32mfstrim-all[0m         [01;32mmkfs[0m              [01;36mrmmod[0m
+[01;32magetty[0m           [01;32mgdisk[0m              [01;32mmkfs.bfs[0m          [01;32mroute[0m
+[01;32malsa[0m             [01;32mgetcap[0m             [01;32mmkfs.cramfs[0m       [01;32mrtacct[0m
+[01;32mapm_available[0m    [01;32mgetpcaps[0m           [01;36mmkfs.ext2[0m         [01;32mrtmon[0m
+[01;32mapparmor_parser[0m  [01;32mgetty[0m              [01;36mmkfs.ext3[0m         [01;32mrunlevel[0m
+[01;32mbadblocks[0m        [01;36mhalt[0m               [01;36mmkfs.ext4[0m         [01;32msetcap[0m
+[01;32mblkid[0m            [01;32mhdparm[0m             [01;36mmkfs.ext4dev[0m      [01;32msetvtrgb[0m
+[01;32mblockdev[0m         [01;32mhwclock[0m            [01;32mmkfs.fat[0m          [01;32msfdisk[0m
+[01;32mbridge[0m           [01;32mifconfig[0m           [01;32mmkfs.minix[0m        [01;32msgdisk[0m
+[01;32mbrltty[0m           [01;36mifdown[0m             [01;36mmkfs.msdos[0m        [01;32mshadowconfig[0m
+[01;32mbrltty-setup[0m     [01;36mifquery[0m            [01;36mmkfs.ntfs[0m         [01;32mshutdown[0m
+[01;32mcapsh[0m            [01;32mifup[0m               [01;36mmkfs.vfat[0m         [01;32mslattach[0m
+[01;32mcfdisk[0m           [01;32minit[0m               [01;32mmkhomedir_helper[0m  [01;36mstart[0m
+[01;32mcgdisk[0m           [01;32minitctl[0m            [01;32mmkntfs[0m            [01;32mstartpar[0m
+[01;32mcrda[0m             [01;36minsmod[0m             [01;32mmkswap[0m            [01;32mstartpar-upstart-inject[0m
+[01;32mctrlaltdel[0m       [01;32minstallkernel[0m      [01;32mmntctl[0m            [01;32mstart-stop-daemon[0m
+[01;32mdebugfs[0m          [01;36mip[0m                 [01;36mmodinfo[0m           [01;36mstatus[0m
+[01;36mdepmod[0m           [01;36mip6tables[0m          [01;36mmodprobe[0m          [01;36mstop[0m
+[01;32mdhclient[0m         [01;36mip6tables-apply[0m    [01;32mmountall[0m          [01;32msulogin[0m
+[01;32mdhclient-script[0m  [01;36mip6tables-restore[0m  [01;32mmount.fuse[0m        [01;32mswaplabel[0m
+[01;32mdmsetup[0m          [01;36mip6tables-save[0m     [01;36mmount.lowntfs-3g[0m  [01;36mswapoff[0m
+[01;36mdosfsck[0m          [01;32mipmaddr[0m            [01;36mmount.ntfs[0m        [01;32mswapon[0m
+[01;36mdosfslabel[0m       [01;36miptables[0m           [01;36mmount.ntfs-3g[0m     [01;32mswitch_root[0m
+[01;32mdumpe2fs[0m         [01;32miptables-apply[0m     [01;32mnameif[0m            [01;32msysctl[0m
+[01;32me2fsck[0m           [01;36miptables-restore[0m   [01;32mntfsclone[0m         [01;32mtc[0m
+[01;32me2image[0m          [01;36miptables-save[0m      [01;32mntfscp[0m            [01;32mtelinit[0m
+[01;36me2label[0m          [01;32miptunnel[0m           [01;32mntfslabel[0m         [01;32mtune2fs[0m
+[01;32me2undo[0m           [01;32misosize[0m            [01;32mntfsresize[0m        [01;32mu-d-c-print-pci-ids[0m
+[01;32methtool[0m          [01;32miw[0m                 [01;32mntfsundelete[0m      [01;36mudevadm[0m
+[01;32mfatlabel[0m         [01;32miwconfig[0m           [01;32mon_ac_power[0m       [01;36mudevd[0m
+[01;32mfdisk[0m            [01;32miwevent[0m            [01;32mpam_tally[0m         [01;32mumount.udisks2[0m
+[01;32mfindfs[0m           [01;32miwgetid[0m            [01;32mpam_tally2[0m        [30;43munix_chkpwd[0m
+[01;32mfixparts[0m         [01;32miwlist[0m             [01;32mparted[0m            [01;32munix_update[0m
+[01;32mfsck[0m             [01;32miwpriv[0m             [01;32mpartprobe[0m         [01;32mupstart-dbus-bridge[0m
+[01;32mfsck.cramfs[0m      [01;32miwspy[0m              [01;32mpccardctl[0m         [01;32mupstart-event-bridge[0m
+[01;36mfsck.ext2[0m        [01;32mkbdrate[0m            [01;32mpivot_root[0m        [01;32mupstart-file-bridge[0m
+[01;36mfsck.ext3[0m        [01;32mkillall5[0m           [01;32mplipconfig[0m        [01;32mupstart-local-bridge[0m
+[01;36mfsck.ext4[0m        [01;32mldconfig[0m           [01;32mplymouthd[0m         [01;32mupstart-socket-bridge[0m
+[01;36mfsck.ext4dev[0m     [01;32mldconfig.real[0m      [01;36mpoweroff[0m          [01;32mupstart-udev-bridge[0m
+[01;32mfsck.fat[0m         [01;32mlogsave[0m            [01;32mrarp[0m              [01;32mureadahead[0m
+[01;32mfsck.minix[0m       [01;32mlosetup[0m            [01;32mraw[0m               [01;32mwipefs[0m
+[01;36mfsck.msdos[0m       [01;36mlsmod[0m              [01;32mreboot[0m            [01;32mwpa_action[0m
+[01;32mfsck.nfs[0m         [01;36mlspcmcia[0m           [01;32mregdbdump[0m         [01;32mwpa_cli[0m
+[01;36mfsck.vfat[0m        [01;32mMAKEDEV[0m            [01;36mreload[0m            [01;32mwpa_supplicant[0m
+[01;32mfsfreeze[0m         [01;32mmii-tool[0m           [01;32mresize2fs[0m         [01;32mxtables-multi[0m
+[01;32mfstab-decode[0m     [01;36mmkdosfs[0m            [01;32mresolvconf[0m
+[01;32mfstrim[0m           [01;32mmke2fs[0m             [01;36mrestart[0m
+]0;ductran@ductran-Inspiron-15-3552: /ductran@ductran-Inspiron-15-3552:/$ ls ~
+[0m[01;34m7TH1[0m                                      HDH_Linux.txt     [01;32mTong2so.sh~[0m
+[01;34m7TH2[0m                                      [01;34mJava[0m              [01;32mtonghop.sh[0m
+[01;34ma[0m                                         [01;32mmax.sh[0m            [01;32mtonghop.sh~[0m
+abc.txt                                   [01;32mmax.sh~[0m           [01;32mtong.sh[0m
+[01;34mathena[0m                                    MD                [01;32mtong.sh~[0m
+[01;34mDesktop[0m                                   [01;34mmkdir[0m             typescript
+[01;34mDocuments[0m                                 [01;34mMusic[0m             [01;34mVideos[0m
+[01;34mDownloads[0m                                 [01;34mPictures[0m          [01;32mvidu[0m
+examples.desktop                          [01;34mPublic[0m            vidu.c
+function~                                 [01;34mTemplates[0m         vidu.c~
+[01;32mfunction.sh[0m                               [01;32mtestQuyen[0m         vidu.o
+[01;32mfunction.sh~[0m                              thegioimang.txt   [01;32mwhile.sh[0m
+[01;31mgoogle-chrome-stable_current_amd64.deb[0m    TH_HDH_Linux.txt  [01;32mwhile.sh~[0m
+google-chrome-stable_current_amd64.deb.1  [01;32mTong2so.sh[0m
+]0;ductran@ductran-Inspiron-15-3552: /ductran@ductran-Inspiron-15-3552:/$ ls -al ~
+total 102160
+drwxr-xr-x 26 ductran ductran     4096 Th05 17  2018 [0m[01;34m.[0m
+drwxr-xr-x  3 root    root        4096 Th03 19 08:54 [01;34m..[0m
+drwxrwxr-x  4 ductran ductran     4096 Th03 27 06:58 [01;34m7TH1[0m
+drwxrwxr-x  3 ductran ductran     4096 Th03 26 23:32 [01;34m7TH2[0m
+drwxrwxr-x  3 ductran ductran     4096 Th04 12 21:05 [01;34ma[0m
+-rw-rw-r--  1 ductran ductran        0 Th03 26 23:32 abc.txt
+drwxrwxr-x  8 ductran ductran     4096 Th04 12 21:44 [01;34mathena[0m
+-rw-------  1 ductran ductran    23550 Th05 17 14:43 .bash_history
+-rw-r--r--  1 ductran ductran      220 Th03 19 08:54 .bash_logout
+-rw-r--r--  1 ductran ductran     3637 Th03 19 08:54 .bashrc
+drwx------ 22 ductran ductran     4096 Th04 23 16:47 [01;34m.cache[0m
+drwx------  3 ductran ductran     4096 Th03 19 15:34 [01;34m.compiz[0m
+drwx------ 24 ductran ductran     4096 Th04 23 16:47 [01;34m.config[0m
+drwx------  3 ductran ductran     4096 Th03 26 23:17 [01;34m.dbus[0m
+drwxr-xr-x 13 ductran ductran     4096 Th05 17 14:50 [01;34mDesktop[0m
+-rw-r--r--  1 ductran ductran       25 Th03 19 22:20 .dmrc
+drwxr-xr-x  2 ductran ductran     4096 Th03 19 22:20 [01;34mDocuments[0m
+drwxr-xr-x  3 ductran ductran     4096 Th05 10 13:40 [01;34mDownloads[0m
+-rw-r--r--  1 ductran ductran     8980 Th03 19 08:54 examples.desktop
+-rw-rw-r--  1 ductran ductran      110 Th04  3 15:17 function~
+-rwxrwxr-x  1 ductran ductran      128 Th04  3 15:20 [01;32mfunction.sh[0m
+-rwxrwxr-x  1 ductran ductran      121 Th04  3 15:18 [01;32mfunction.sh~[0m
+drwx------  5 ductran ductran     4096 Th05 17  2018 [01;34m.gconf[0m
+drwxrwxr-x  8 ductran ductran     4096 Th04 15 22:22 [01;34m.git[0m
+-rw-rw-r--  1 ductran ductran       58 Th04 15 22:19 .gitconfig
+-rw-rw-r--  1 ductran ductran 52149676 Th03 13 06:40 [01;31mgoogle-chrome-stable_current_amd64.deb[0m
+-rw-rw-r--  1 ductran ductran 52149676 Th03 13 06:40 google-chrome-stable_current_amd64.deb.1
+-rw-rw-r--  1 ductran ductran        0 Th04 12 21:58 HDH_Linux.txt
+-rw-------  1 ductran ductran    16770 Th05 17  2018 .ICEauthority
+drwxrwxr-x  3 ductran ductran     4096 Th03 20 00:50 [01;34m.java[0m
+drwxrwxr-x  2 ductran ductran     4096 Th03 20 13:44 [01;34mJava[0m
+drwx------  3 ductran ductran     4096 Th03 19 22:20 [01;34m.local[0m
+-rwxrwxr-x  1 ductran ductran       75 Th03 27 09:26 [01;32mmax.sh[0m
+-rwxrwxr-x  1 ductran ductran       73 Th03 27 09:26 [01;32mmax.sh~[0m
+-rw-rw-r--  1 ductran ductran      628 Th03 20 15:16 MD
+drwxrwxr-x  2 ductran ductran     4096 Th04 12 21:36 [01;34mmkdir[0m
+drwx------  5 ductran ductran     4096 Th04 22 16:44 [01;34m.mozilla[0m
+drwxr-xr-x  2 ductran ductran     4096 Th03 19 22:20 [01;34mMusic[0m
+drwxrwxr-x  3 ductran ductran     4096 Th03 20 00:50 [01;34m.netbeans[0m
+drwxr-xr-x  3 ductran ductran     4096 Th03 19 23:01 [01;34mPictures[0m
+-rw-r--r--  1 ductran ductran      675 Th03 19 08:54 .profile
+drwxr-xr-x  2 ductran ductran     4096 Th03 19 22:20 [01;34mPublic[0m
+-rw-------  1 ductran ductran       89 Th04 24 07:37 .python_history
+drwxr-xr-x  2 ductran ductran     4096 Th03 19 22:20 [01;34mTemplates[0m
+-rwxr-----  1 ductran ductran        0 Th03 27 07:52 [01;32mtestQuyen[0m
+-rw-rw-r--  1 ductran ductran       20 Th04 12 21:23 thegioimang.txt
+-rw-rw-r--  1 ductran ductran        0 Th04 12 21:58 TH_HDH_Linux.txt
+-rwxrw-r--  1 ductran ductran      115 Th05  8 08:50 [01;32mTong2so.sh[0m
+-rwxrw-r--  1 ductran ductran      113 Th04 26 16:48 [01;32mTong2so.sh~[0m
+-rwxrwxr-x  1 ductran ductran      627 Th04  3 15:44 [01;32mtonghop.sh[0m
+-rwxrwxr-x  1 ductran ductran      594 Th04  3 15:43 [01;32mtonghop.sh~[0m
+-rwxrwxr-x  1 ductran ductran      121 Th04  3 14:59 [01;32mtong.sh[0m
+-rwxrwxr-x  1 ductran ductran      120 Th04  3 14:58 [01;32mtong.sh~[0m
+-rw-rw-r--  1 ductran ductran      512 Th05 17 14:37 typescript
+drwxr-xr-x  2 ductran ductran     4096 Th03 19 22:20 [01;34mVideos[0m
+-rwxrwxr-x  1 ductran ductran     8520 Th04  3 16:04 [01;32mvidu[0m
+-rw-rw-r--  1 ductran ductran       85 Th04  3 16:11 vidu.c
+-rw-rw-r--  1 ductran ductran       73 Th04  3 16:10 vidu.c~
+-rw-rw-r--  1 ductran ductran     1600 Th05 10 15:31 vidu.o
+-rwxrwxr-x  1 ductran ductran       84 Th04  3 15:24 [01;32mwhile.sh[0m
+-rwxrwxr-x  1 ductran ductran       84 Th04  3 15:24 [01;32mwhile.sh~[0m
+-rw-------  1 ductran ductran       69 Th05 17  2018 .Xauthority
+-rw-rw-r--  1 ductran ductran      131 Th03 19 15:25 .xinputrc
+-rw-------  1 ductran ductran      638 Th05 17  2018 .xsession-errors
+-rw-------  1 ductran ductran     1358 Th05 17  2018 .xsession-errors.old
+]0;ductran@ductran-Inspiron-15-3552: /ductran@ductran-Inspiron-15-3552:/$ mkdir ~/testdir
+]0;ductran@ductran-Inspiron-15-3552: /ductran@ductran-Inspiron-15-3552:/$ mkdir -p [K[K[K[K[K[K[K[K[Kcd /etc ; [K[K
+]0;ductran@ductran-Inspiron-15-3552: /etcductran@ductran-Inspiron-15-3552:/etc$ mkdir ~/newdir
+]0;ductran@ductran-Inspiron-15-3552: /etcductran@ductran-Inspiron-15-3552:/etc$ mkdir -p ~/dir1/dir2/dir3
+]0;ductran@ductran-Inspiron-15-3552: /etcductran@ductran-Inspiron-15-3552:/etc$ rmdir testdir
+rmdir: failed to remove ‘testdir’: No such file or directory
+]0;ductran@ductran-Inspiron-15-3552: /etcductran@ductran-Inspiron-15-3552:/etc$ rmdir testdir~testdir/testdir
+]0;ductran@ductran-Inspiron-15-3552: /etcductran@ductran-Inspiron-15-3552:/etc$ exit
+exit
+
+Script done on Thứ năm, 17 Tháng năm Năm 2018 15:09:01 +07
